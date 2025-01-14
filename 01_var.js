@@ -11,7 +11,7 @@ console.table([name,age,phno,city,job])
 
 // primitive datatypes : number , string , null , undefined , symbol , bigint(number with n at end) , boolean
 
-// reference : array , objects , functions
+// reference(non-primitive) : array , objects , functions
 const array =["a","b","c"];
 let isObject={
     rank : 50,
@@ -22,3 +22,6 @@ let isFunc = function(){
     
 }
 console.log(typeof 123498320843797797789798797);
+
+
+// stack(primitive) , heap(non-primitive)
